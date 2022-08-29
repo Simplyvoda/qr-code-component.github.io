@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+html{
+    background-color: hsl(212, 45%, 89%);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    min-width: 375px;
+}
+
+/* for some reason background color for the container of the elements didn't change i had to override with !important */
+.cont{
+    background-color: white !important;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+p{
+    color:  hsl(220, 15%, 55%) ;
+}
